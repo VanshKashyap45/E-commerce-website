@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<style>
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+</style>
+<body>
+      <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <img src="images/logo.png" width="125px">
+              </div>
+              
+              <div class="nav">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="productsNew.html">Products</a></li>
+                      <li><a href="index.html#about">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="login.html">Account</a></li>
+                      
+                  </ul>
+              </div>
+              <img src="images/cart.png" width="30px" height="30px">
+              
+          </div>
+          <main>
+            <form action="mail.php" method="post">
+                <label for="name">Your Name</label>
+                <input type="text"  name="name" placeholder="Your name..">
+                <label for="mail">Email</label>
+                <input type="text"  name="mail" placeholder="Your email..">
+                <label for="message">Message</label>
+                <textarea  name="message" placeholder="Write something.." style="height:200px"></textarea>
+                <button class="btn " input type="submit" name="Submit">SEND MAIL</button>
+              </form> 
+              </main>
+              
+      </div>       
+         
+  <!---Footer---------------->
+  
+  <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col-1">
+                  <h3>Download Our App</h3>
+                  <p>Download Our App for Android and ios mobile phone.</p>
+                  <div class="app-logo">
+                      <img src="images/play-store.png" alt="">
+                      <img src="images/app-store.png" alt="">
+                  </div>
+              </div>
+              <div class="footer-col-2">
+                  <img src="images/logo.png" alt="">
+                  <p>Our Purpose Is to Sustainably Make the Pleasure And
+                      Benefits Of Sports Accesible to The many.</p>
+              </div>
+              <div class="footer-col-3">
+                  <h3>Useful Links</h3>
+                  <ul>
+                      <li>Coupons</li>
+                      <li>Blog Post</li>
+                      <li>Return Policy</li>
+                      <li>Join Affilate</li>
+                      
+                  </ul>
+              </div>
+              <div class="footer-col-4">
+                  <ul>
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                  </ul>
+              </div>
+          </div>
+          <hr>
+          <p class="copyright">Copyright&copy; 2020 - TVFS</p>
+      </div>
+  </div>
+  
+  </body>
+  </html>
